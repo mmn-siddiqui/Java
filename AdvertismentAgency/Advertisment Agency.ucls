@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="advertisementAgency.AdvertisementMode" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/AdvertisementMode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="200" x="413" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="advertisementAgency.FrenchLanguage" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/FrenchLanguage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="136" x="653" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="advertisementAgency.SMS" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/SMS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="157" x="232" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="advertisementAgency.EnglishLanguage" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/EnglishLanguage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="136" x="829" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="advertisementAgency.InMail" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/InMail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="429" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="advertisementAgency.Email" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/Email.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="159" x="630" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="advertisementAgency.ItalianLanguage" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/ItalianLanguage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="136" x="1005" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="advertisementAgency.Advertised" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/Advertised.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="246" y="16"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="advertisementAgency.Advertisement" project="AdvertismentAgency" 
+    file="/AdvertismentAgency/src/advertisementAgency/Advertisement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="829" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="advertisement"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
